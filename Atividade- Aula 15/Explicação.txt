@@ -1,0 +1,5 @@
+Iteração 1: minimax é chamado pela primeira vez a partir de find_best_move. O tabuleiro está quase vazio, então muitas possibilidades são exploradas.
+Iteração 2: Dentro de minimax, o primeiro movimento possível é tentado. Se for a vez do PLAYER (maximizador), o valor inicial de best é -infinito.
+Iteração 3: O primeiro movimento do PLAYER é colocado no tabuleiro, e minimax é chamado recursivamente para o próximo movimento do OPPONENT (minimizador).
+Iteração 4: Agora, minimax tenta os movimentos para o OPPONENT. O valor inicial de best para o minimizador é infinito.
+Iteração 5: O movimento do OPPONENT é simulado, e minimax é chamado recursivamente para o próximo movimento do PLAYER.
